@@ -143,13 +143,13 @@ body {
   }
   @media (min-width: 768px){
     .contact-form {
-      width: 80vw;
+        width: 80vw;
     }
   }
   
   @media (min-width: 1200px) {
     .contact-form {
-      width: 70vw;
+        width: 70vw;
     }
     .form-group{
         display: grid;
