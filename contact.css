@@ -21,7 +21,6 @@ body {
     padding: 20px;
     border-radius: 1em;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    color:#004d28
   }
   
   h2 {
@@ -80,10 +79,6 @@ body {
     background-color:#004d28; 
   }
   
-  .radio-group {
-    display: flex;
-    justify-content: space-between;
-  }
   .custom-radio {
     display: block;
     width: 100%;
@@ -99,14 +94,7 @@ body {
   .custom-radio >input{
     margin-right: 10px;
     border: 1px solid #86a2a6;
-  }
-  .general-enquiry, .support-request{
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
+  } 
   .checkbox-group {
     display: flex;
     flex-direction: row;
@@ -149,8 +137,5 @@ body {
     .contact-form {
         width: 70vw;
     }
-    .form-group{
-        display: grid;
-        grid-template-columns: 1fr;
-    } 
+   
   }
